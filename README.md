@@ -36,7 +36,8 @@ The algorithm performs the following steps:
 * Save the thresholded image as the output.
 
 The resulting image contains the high SNR feature extracted from the input image.
-<img src="https://github.com/AIcode0608/H-SNR/blob/main/assets/H-SNR.png" width="660px">
+
+<img src="https://github.com/AIcode0608/H-SNR/blob/main/assets/H-SNR.png" width="600px">
 
 ## Example
 
@@ -45,3 +46,8 @@ To generate visualization maps for multiple images using a ResNet152 model and t
 python main.py demo1 -a resnet152 -t layer4   -i samples/1.jpg -i samples/2.jpg # You can add more images
 ```
 The high SNR feature extraction results will be stored in the './results' directory.
+
+## Result
+We investigated the impact of High SNR extracted from the dataset by Crad-CAM on the performance improvement of the final model. The experimental results showed that this module achieved a maximum performance gain of 2.62%.
+
+<img src="https://github.com/AIcode0608/H-SNR/blob/main/assets/fig9.png" width="600px">
