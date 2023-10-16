@@ -36,7 +36,7 @@ The algorithm performs the following steps:
 * Save the thresholded image as the output.
 
 The resulting image contains the high SNR feature extracted from the input image.
-<img src="https://github.com/AIcode0608/H-SNR/blob/main/assets/H-SNR.png" width="310px">
+<img src="https://github.com/AIcode0608/H-SNR/blob/main/assets/H-SNR.png" >
 
 ## Example
 
