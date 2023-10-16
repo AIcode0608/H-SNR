@@ -3,7 +3,7 @@
 PyTorch implementation of Grad-CAM (Gradient-weighted Class Activation Mapping) 
 ## Requirements
 
-Python 2.7 / 3.+
+Python 3.+
 
 ```
 $ pip install click opencv-python matplotlib tqdm numpy
@@ -36,7 +36,7 @@ The algorithm performs the following steps:
 * Save the thresholded image as the output.
 
 The resulting image contains the high SNR feature extracted from the input image.
-
+<img src="https://github.com/sau-GaoLijun/ASSL-pytorch/blob/main/assl-code/assl/table1.png" width="310px">
 
 ## Example
 
